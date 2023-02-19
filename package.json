@@ -1,0 +1,41 @@
+{
+  "name": "swim_app",
+  "version": "1.0.0",
+  "description": "Solid Waste Identification & Management",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hotaanubhab/SWIM-Webapp.git"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.991.0",
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.12.1",
+    "fs": "0.0.1-security",
+    "helmet": "^4.6.0",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.30",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  },
+  "author": "Anubhab Hota, Aditya Anand, Aryan Raj Banerjee, Aniket Mohanty, Ayush Jha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hotaanubhab/SWIM-Webapp/issues"
+  },
+  "homepage": "https://github.com/hotaanubhab/SWIM-Webapp#readme"
+}

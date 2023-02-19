@@ -1,0 +1,11 @@
+require('dotenv').config();
+
+let AWS_ACCESS_KEY = process.env.AWS_ACCESS_KEY;
+let AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
+let AWS_DEFAULT_REGION = process.env.AWS_DEFAULT_REGION;
+
+module.exports = {
+    AWS_ACCESS_KEY : AWS_ACCESS_KEY,
+    AWS_SECRET_ACCESS_KEY : AWS_SECRET_ACCESS_KEY,
+    AWS_DEFAULT_REGION : AWS_DEFAULT_REGION
+}
