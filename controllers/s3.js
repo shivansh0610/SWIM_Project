@@ -24,7 +24,7 @@ exports.uploadToResumeS3 = (req,res,next) => {
     // Setting up S3 upload parameters
     const params = {
         Bucket: 'r3sume-bucket',
-        Key: `prabhav/Prabhav_Tewari_Resume.pdf`,
+        Key: ``,
         Body: fileContent,
         ContentType: 'application/pdf',
         ACL: 'public-read'
